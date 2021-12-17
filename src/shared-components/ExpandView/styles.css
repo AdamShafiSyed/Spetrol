@@ -1,0 +1,9 @@
+@media only screen and (max-width: 877px) {
+    .expandedView{
+        width: 100% !important;
+        margin: auto;
+    }
+    .padding20{
+        padding: 20px !important;
+    }
+}

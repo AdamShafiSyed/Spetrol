@@ -1,0 +1,14 @@
+#video-viewport {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: -1; /* for accessing the video by click */
+}
+.border {
+  background: #e2e2e2;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+}

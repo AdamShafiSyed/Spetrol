@@ -1,0 +1,39 @@
+.flex1 {
+  display: flex;
+}
+.primary-color{
+  background: linear-gradient(180deg, #CA2128 0%, #AE2933 100%);
+  color: #fff;
+}
+.order-tracking-container {
+  /* height: 75vh; */
+  display: flex;
+  margin-top: 5%;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.direction {
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+.direction-row {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center;
+  align-content: center; */
+}
+.padding32 {
+  padding-top: 32px;
+}
+@media only screen and (max-width: 1024px) {
+  .order-tracking-container{
+    height: unset !important;
+  }
+}

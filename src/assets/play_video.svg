@@ -1,0 +1,32 @@
+<svg width="88" height="88" viewBox="0 0 88 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.1" filter="url(#filter0_b_1045_2735)">
+<circle cx="44" cy="44.0001" r="43.3333" fill="white"/>
+</g>
+<g opacity="0.2" filter="url(#filter1_b_1045_2735)">
+<circle cx="44" cy="44.0001" r="35.3333" fill="white"/>
+</g>
+<g filter="url(#filter2_b_1045_2735)">
+<circle cx="44" cy="44" r="28" fill="white"/>
+</g>
+<path d="M39 37.9307C39 36.6648 40.4004 35.9003 41.4652 36.5848L50.9064 42.6541C51.8861 43.2839 51.8861 44.7161 50.9064 45.3459L41.4652 51.4152C40.4004 52.0997 39 51.3352 39 50.0693V37.9307Z" fill="#CA2128"/>
+<defs>
+<filter id="filter0_b_1045_2735" x="-52.6667" y="-52.6666" width="193.333" height="193.333" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImage" stdDeviation="26.6667"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1045_2735"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1045_2735" result="shape"/>
+</filter>
+<filter id="filter1_b_1045_2735" x="-44.6667" y="-44.6666" width="177.333" height="177.333" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImage" stdDeviation="26.6667"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1045_2735"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1045_2735" result="shape"/>
+</filter>
+<filter id="filter2_b_1045_2735" x="-37.3333" y="-37.3333" width="162.667" height="162.667" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImage" stdDeviation="26.6667"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1045_2735"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1045_2735" result="shape"/>
+</filter>
+</defs>
+</svg>

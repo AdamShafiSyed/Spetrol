@@ -1,0 +1,175 @@
+.borderBox {
+  background: #ffffff;
+  /* Body/$body-6 */
+  border: 1px solid #eaeaea;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-bottom: 32px;
+}
+.padding {
+  padding: 24px 44px 0px 24px;
+}
+.section8-top-margin{
+  background: linear-gradient(
+180deg, #CA2128 0%, #AE2933 100%);
+    color: #fff;
+}
+.highlightedBox {
+  background: #fbe9ea;
+  border: 1px solid #ca2128;
+  box-shadow: 0 10px 10px 0px rgb(0 0 0 / 10%);
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-bottom: 32px;
+}
+.section8-action-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 3%;
+  padding: 20px 0;
+  height: 90vh;
+}
+.main-heading {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: -0.025em;
+  padding-top: 3%;
+  margin-bottom: 0;
+}
+.section8-top-margin {
+  margin-top: 5%;
+}
+.section8-cover-image {
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  margin-left: 5%;
+  position: relative;
+}
+
+.vehicle_img, .machine_img1, .machine_img2 {
+  position: absolute;
+  width: 25%;
+  transition: 1s ease;
+  z-index: 1;
+  /* filter: drop-shadow(2px 4px 6px #E5E5E5); */  
+  filter: drop-shadow(0 0 1rem #771A23);
+}
+.section8-image{
+  filter: drop-shadow(0 0 1rem #771A23);
+}
+.vehicle_img {
+  right: 12%;
+  top: 23%;
+  padding: 10px 30px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+.machine_img2{
+  bottom: 22%;
+  right: 12%;
+}
+.machine_img1{
+  top: 41%;
+  left: 12%;
+}
+.vehicle_img:hover, .machine_img1:hover, .machine_img2:hover{
+  transform: scale(1.5);
+}
+.section8-card-style {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 5%;
+}
+@media only screen and (max-width: 877px) {
+  .section8-action-cards{
+    height: unset !important;
+    flex-direction: column;
+    margin-top: 10% !important;
+  }
+  .why_choose_spetrol_section_card {
+    width: 100% !important;
+    margin-bottom: 10%;
+  }
+  .section8-card-style {
+    width: 100% !important;
+  }
+  .section8-cover-image{
+    margin: 10% auto !important;
+    
+  }
+  .section8-top-margin{
+    margin-top: 10% !important;
+  }
+  .main-heading{
+    margin: 0;
+  }
+  .vehicle_img {
+    right: 0;
+  }
+   .machine_img1 {
+     left: 0
+   }
+    .machine_img2{
+    right: 0;
+  }
+
+
+
+}
+@media only screen and (max-width: 1024px) {
+ .section8-action-cards{
+    margin-left: unset;
+    width: 90%;
+    margin: auto;
+    margin-top: 10% !important;
+  }
+  .section8-card-style{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: unset;
+  }
+  .section8-cover-image {
+    width: 50%;
+    text-align: center;
+  }
+  .vehicle_img, .machine_img1, .machine_img2{
+    width: 30%;
+  }
+
+}
+@media only screen and (max-width: 580px) {
+  .borderBox {
+    background: #ffffff;
+    /* Body/$body-6 */
+    border: 1px solid #eaeaea;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    width: 100%;
+  }
+  .section8-card-style {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .section8-top-margin {
+    margin-top: 20px;
+    padding: 20px 0;
+  }
+  .section8-cover-image {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+}

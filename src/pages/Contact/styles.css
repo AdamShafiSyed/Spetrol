@@ -1,0 +1,85 @@
+.container-fluid {
+  background: #fafafa;
+}
+* {
+  font-family: "Inter";
+}
+.drop-down-contact {
+  border-radius: 20px;
+}
+.contact-container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  padding: 2rem 0;
+  font-family: "Inter";
+}
+.sidebar {
+  width: 35%;
+  padding: 5% 3%;
+  color: #fff;
+  background: linear-gradient(180deg, #ca2128 0%, #ae2933 100%);
+  box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.06),
+    0px 10px 10px -5px rgba(0, 0, 0, 0.02);
+}
+
+.btn-danger {
+  background: #ca2128;
+  border-radius: 6px;
+  padding: 10px 24px;
+}
+
+.contact-form {
+  background: #fff;
+  width: 65%;
+  padding: 5% 3%;
+  box-shadow: 0px 20px 25px -5px rgba(0, 0, 0, 0.06),
+    0px 10px 10px -5px rgba(0, 0, 0, 0.02);
+}
+.contact-title,
+.msg-title {
+  font-size: 18px;
+  letter-spacing: -0.04em;
+  margin-bottom: 1rem;
+}
+.msg-title {
+  color: #111;
+}
+.contact-desc,
+.form-label {
+  font-size: 14px;
+}
+.placeholder {
+  font-size: 12px;
+  color: #777777;
+}
+.form-label {
+  color: #444;
+}
+.contact-details {
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .contact-container {
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .contact-container {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-container {
+    flex-direction: column !important;
+  }
+  .sidebar {
+    width: 100% !important;
+  }
+  .contact-form {
+    width: 100% !important;
+  }
+}
