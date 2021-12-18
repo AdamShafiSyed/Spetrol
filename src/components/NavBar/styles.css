@@ -22,6 +22,7 @@
 .navbar-brand {
   padding-bottom: 0;
   margin-left: 7%;
+  margin-right: 1.5vw;
 }
 
 .navbar-logo {
@@ -170,5 +171,12 @@
   }
   .navbar-brand {
     margin-left: unset !important;
+  }
+}
+
+@media (min-width: 1366px) {
+  .navbar-brand>SVG{
+    width:9.5vw;
+    height:2.2vw;
   }
 }

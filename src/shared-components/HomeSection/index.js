@@ -19,44 +19,44 @@ const HomeSection = (props) => {
             <div className={(props.content_class) ? `home-direction ${props.content_class}`: 'home-direction' }>
                 {
                     (props.section === 'OrderFuelSection') ?
-                    <p style={{...typography.h130Px, marginBottom: 0, lineHeight: '32px', letterSpacing: "-0.02em"}}>Order fuel <span style={{color: 'rgba(255, 255, 255, 0.7)'}}>anywhere, anytime</span></p>
+                    <p className='fontsize30px lineheight32px' style={{...typography.h130Px, marginBottom: 0, lineHeight: '32px', letterSpacing: "-0.02em"}}>Order fuel <span style={{color: 'rgba(255, 255, 255, 0.7)'}}>anywhere, anytime</span></p>
                     :
                     (props.section === 'order-tracking') ? 
-                    <p className="color-faded" style={{...typography.h130Px, marginBottom: 0, lineHeight: '32px', letterSpacing: "-0.02em"}}>Real-time <span className='color-black'>availability & pricing</span></p>
+                    <p className="color-faded fontsize30px lineheight32px" style={{...typography.h130Px, marginBottom: 0, lineHeight: '32px', letterSpacing: "-0.02em"}}>Real-time <span className='color-black'>availability & pricing</span></p>
                     :
-                    <p style={{...typography.h130Px, marginBottom: 0, lineHeight: '32px', letterSpacing: "-0.02em"}}>{props?.data?.mainTitle}</p>
+                    <p className='fontsize30px lineheight32px' style={{...typography.h130Px, marginBottom: 0, lineHeight: '32px', letterSpacing: "-0.02em"}}>{props?.data?.mainTitle}</p>
                 }
 
-                 <p className={(props.section === 'order-tracking') ? 'section-caption color-black': 'section-caption'}>{props?.data?.mainCaption} </p>
+                 <p className={(props.section === 'order-tracking') ? 'section-caption fontsize18px lineheight26px color-black': 'section-caption lineheight26px fontsize18px'}>{props?.data?.mainCaption} </p>
 
                 <div className="direction-row padding32">
-                  <img className="image" src={props.brand1} alt="" style={{marginRight:16}}></img> 
+                  <img className="image marginRight16px" src={props.brand1} alt=""></img> 
                     <div>
                             <p style={{margin: 0}}>
-                                <span className={(props.section === 'order-tracking') ? 'main-title color-black': 'main-title'}>{props?.data?.title1}
-                                <span className={(props.section === 'order-tracking') ? 'main-caption color-grey': 'main-caption'}>{props?.data?.subTitle1}</span> 
+                                <span className={(props.section === 'order-tracking') ? 'main-title fontsize18px color-black': 'main-title fontsize18px'}>{props?.data?.title1}
+                                <span className={(props.section === 'order-tracking') ? 'main-caption fontsize18px color-grey': 'main-caption fontsize18px'}>{props?.data?.subTitle1}</span> 
                                 </span> 
                             </p> 
                     </div>
                 </div>
 
                 <div className="direction-row padding32">
-                    <img className="image" src={props.brand2} alt="" style={{marginRight:16}}></img>
+                    <img className="image marginRight16px" src={props.brand2} alt="" ></img>
                     <div>
                             <p style={{margin: 0}}>
-                                <span className={(props.section === 'order-tracking') ? 'main-title color-black': 'main-title'}>{props?.data?.title2}
-                                    <span className={(props.section === 'order-tracking') ? 'main-caption color-grey': 'main-caption'}>{props?.data?.subTitle2}</span>
+                                <span className={(props.section === 'order-tracking') ? 'main-title fontsize18px color-black': 'main-title fontsize18px'}>{props?.data?.title2}
+                                    <span className={(props.section === 'order-tracking') ? 'main-caption fontsize18px color-grey': 'main-caption fontsize18px'}>{props?.data?.subTitle2}</span>
                                 </span>  
                             </p> 
                     </div>
                 </div>
 
                 <div className="direction-row padding32">
-                    <img className="image" src={props.brand3} alt="" style={{marginRight:16}}></img>
+                    <img className="image marginRight16px" src={props.brand3} alt=""></img>
                     <div>
                                 <p style={{margin: 0}}>
-                                    <span className={(props.section === 'order-tracking') ? 'main-title color-black': 'main-title'}>{props?.data?.title3}
-                                        <span className={(props.section === 'order-tracking') ? 'main-caption color-grey': 'main-caption'}>{props?.data?.subTitle3}</span>
+                                    <span className={(props.section === 'order-tracking') ? 'main-title fontsize18px color-black': 'main-title fontsize18px'}>{props?.data?.title3}
+                                        <span className={(props.section === 'order-tracking') ? 'main-caption fontsize18px color-grey': 'main-caption fontsize18px'}>{props?.data?.subTitle3}</span>
                                     </span>  
                                 </p>
                             

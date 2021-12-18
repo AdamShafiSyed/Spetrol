@@ -1,9 +1,29 @@
+.padding2032{
+    padding: 20px 32px;
+}
+.maginTop24{
+    margin-top: 24px;
+}
+
 @media only screen and (max-width: 877px) {
     .expandedView{
         width: 100% !important;
         margin: auto;
     }
-    .padding20{
+    .padding2032{
         padding: 20px !important;
+    }
+}
+
+@media (min-width: 1366px) {
+    .padding2032{
+        padding: 1.5vw 2.35vw !important;
+    }
+    .maginTop24{
+        margin-top: 1.76vw !important;
+    }
+    .upDownArrows>SVG{
+        width:1.76vw !important; 
+        height:1.76vw !important;
     }
 }

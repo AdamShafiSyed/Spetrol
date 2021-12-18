@@ -26,16 +26,16 @@ const Section7 = () => {
     return (
         <div className="why_choose_container" style={{backgroundColor: '#FAFAFA'}}>
             <div className="section7-main center">
-            <p style={{...typography.h136Px, lineHeight: '40px', margin: 0}}>Why choose Spetrol</p>
+            <p className='fontsize36px lineheight40px' style={{...typography.h136Px, lineHeight: '40px', margin: 0}}>Why choose Spetrol</p>
             {/* <p style={{...typography.p118PxR,...{color:"#777777",marginTop:12}}}>Here’s why you should choose us</p> */}
             </div>
             <div className="section7-cards">
                 {
                     whyChooseSpetrol.map((section,index) => {
                        return <div key={index} className="card why_choose_spetrol_section_card shadow bg-white rounded" >
-                       <div className="card-body ">
-                           <h4 className="card-title" style={{color: 'rgb(202, 33, 40)', marginBottom: 20}}>{section.title}</h4>
-                           <p className="card-text">{section.description}</p>
+                       <div className="card-body padding20">
+                           <h4 className="card-title fontsize24px marginBottom20" style={{color: 'rgb(202, 33, 40)', fontSize:'24px'}}>{section.title}</h4>
+                           <p className="card-text fontsize16px" style={{fontSize: '16px'}}>{section.description}</p>
                        </div>
                        <img className="card-img-top" src={section.image} alt="Card cap" />
                    </div>

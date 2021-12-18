@@ -10,19 +10,22 @@
 }
 
 .section2-title {
-  margin-top: 104px;
+  margin-top: 5vw;
 }
 .padding32 {
   padding-top: 32px;
 }
 .section2-subtext {
   margin-top: 16px;
-  font-size: 20px !important;
+  font-size: 20px !important
 }
 .order-fuel-container {
   background: linear-gradient(180deg, #CA2128 0%, #AE2933 100%);
   color: #fff;
-   margin-top: 64px;
+   margin-top: 4.68vw;
+}
+.lineheight62px{
+  line-height: 62px;
 }
 
 
@@ -79,5 +82,12 @@
   }
   .section2-title {
     margin-top: 60px;
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  .section2-subtext {
+    margin-top: 1.2vw;
+    font-size: 1.5vw !important;
   }
 }

@@ -85,3 +85,58 @@ html{
   color: #fff;
   font-size: 100px;
 }
+@media (min-width: 877px){
+  .MuiDialog-paperScrollPaper{
+    max-height: unset !important;
+  }
+}
+
+@media (min-width: 1366px) {
+.fontsize14px{
+  font-size: 1.03vw !important;
+}
+.fontsize16px{
+  font-size: 1.18vw !important;
+}
+.fontsize18px{
+  font-size: 1.32vw !important;
+}
+.fontsize20px{
+  font-size: 1.5vw !important;
+}
+.fontsize24px{
+  font-size: 1.76vw !important;
+}
+.fontsize30px{
+  font-size: 2.2vw !important;
+}
+.fontsize36px{
+  font-size: 2.64vw !important;
+}
+.fontsize62px{
+  font-size: 4.54vw !important;
+}
+.lineheight62px{
+  line-height: 4.54vw !important;
+}
+.lineheight32px{
+  line-height: 2.35vw !important;
+}
+.lineheight26px{
+  line-height: 1.91vw !important;
+}
+.lineheight40px{
+  line-height: 2.93vw !important;
+}
+.lineheight20px{
+line-height: 1.5vw !important;
+}
+.react-multiple-carousel__arrow{
+  min-width: 3.15vw !important;
+  min-height: 3.15vw !important;
+}
+.react-multiple-carousel__arrow::before{
+  font-size: 1.5vw !important;
+}
+}
+

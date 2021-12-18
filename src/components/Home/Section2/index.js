@@ -24,8 +24,8 @@ const Section2 = () => {
     return (
         <>
         <div className="title section2-title">
-            <div style={{...typography.h136Px,...{textAlign:"center", fontSize: 62, lineHeight: '62px'}}}>A better way to order fuel</div>
-            <p className="section2-subtext" style={{...typography.p118Px,...{color:colors.grey1}}}>Get to know about the top features Spetrol has to offer you.</p>
+            <div className='fontsize62px lineheight62px' style={{...typography.h136Px,...{textAlign:"center", fontSize:62}}}>A better way to order fuel</div>
+            <p className="section2-subtext fontsize18px" style={{...typography.p118Px,...{color:colors.grey1}}}>Get to know about the top features Spetrol has to offer you.</p>
         </div>
         <div className="order-fuel-container">
         <HomeSection 

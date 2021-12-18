@@ -126,8 +126,8 @@ const About = () => {
             <div className="team-container">
                 
                 <div className="marginTop96">
-                    <h1 className="team-container-title" style={{...typography.h136Px}} >Meet our team</h1>
-                    <p  className="team-container-desc" style={{...typography.p118Px}}>Meet our exceptionally talented and highly ambitious team of Spetrol</p>
+                    <h1 className="team-container-title fontsize36px" style={{...typography.h136Px}} >Meet our team</h1>
+                    <p  className="team-container-desc fontsize18px" style={{...typography.p118Px}}>Meet our exceptionally talented and highly ambitious team of Spetrol</p>
                 </div>
                 
             <div className="team-images-container">
@@ -137,8 +137,8 @@ const About = () => {
                         <img className="person-img" src={people.imgURL} alt={people.name} />
                     </div>
                     <div className="text-center marginTop15 person-details">
-                        <p className="person-name" style={{...typography.p118Px}}>{people.name}</p>
-                        <p className='person-role' style={{...typography.p118Px}}>{people.role}</p>
+                        <p className="person-name fontsize18px" style={{...typography.p118Px}}>{people.name}</p>
+                        <p className='person-role fontsize18px' style={{...typography.p118Px}}>{people.role}</p>
                         <div className="media-icons marginTop10">
                             {socialMedia.map((media, index) => {
                                 const Svg = media.Svg;

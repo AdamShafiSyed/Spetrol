@@ -7,7 +7,7 @@
   align-content: center;
 }
 .padding {
-  padding: 64px;
+  padding: 4.69vw;
   flex-direction: column;
 }
 .footer-text{
@@ -17,6 +17,7 @@
   text-decoration: none;
   color: #444;
   font-weight: 700 !important;
+  padding: 8px 16px;
 }
 
 .footer-text a:focus{
@@ -29,7 +30,14 @@
 transform: scale(1.5);
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (min-width: 1366px) {
+  .social_media_icons>SVG{
+    width:1.76vw;
+     height:1.76vw;
+  }
+  .footer-text a {
+    padding: 0.59vw 1.18vw !important;
+  }
 }
 @media only screen and (max-width: 580px) {
   .footer-text {

@@ -25,7 +25,7 @@
 @media only screen and (max-width: 1024px) {
   .qtns-container {
     margin-top: 10% !important;
-    margin-bottom: 10%;
+    /* margin-bottom: 10%; */
   }
 }
 @media only screen and (max-width: 580px) {

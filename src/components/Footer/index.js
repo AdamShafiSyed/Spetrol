@@ -75,13 +75,13 @@ const Footer = () => {
     return (
         <div className="footer" style={{...location?.pathname === '/blogs' ? {background: '#fafafa'} : {background: "#fff"}}} >
             <div className="padding">
-            <div className="footer-text" style={{marginBottom:32}}>
+            <div className="footer-text" style={{marginBottom:'2.35vw'}}>
                 {footerData.map((footer,index) => {
                 return <NavLink key={index}
                             to={footer.route}
                             activeStyle={{ color:'#ca2128' }}
                             style={{...typography.p314PxM, cursor: 'pointer'}}
-                            className="nav-link"
+                            className="nav-link fontsize14px"
                              >
                             {footer.name}
                         </NavLink>
@@ -92,7 +92,7 @@ const Footer = () => {
                })}
             </div>
            
-              <div style={{marginBottom:32,textAlign:"center", display: 'flex', justifyContent: 'space-evenly'}}>
+              <div style={{marginBottom:"2.35vw",textAlign:"center", display: 'flex', justifyContent: 'space-evenly'}}>
               {socialMedia.map((media,index) => {
                 const Svg = media.Svg;
                 return  <a href={media.link} className='social_media_icons' target="_blank" rel="noopener noreferrer" key={`${index} ${media}`}>
@@ -100,7 +100,7 @@ const Footer = () => {
                 </a>
               })}
               </div>
-              <div style={{...typography.p314PxR,...{textAlign:"center",color:"#ca2128"}}}>
+              <div className='fontsize14px' style={{...typography.p314PxR,...{textAlign:"center",color:"#ca2128"}}}>
               {'© 2021 Raams Moving Technologies, Inc.'.toUpperCase()}
               </div>
             </div>

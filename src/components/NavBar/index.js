@@ -43,8 +43,8 @@ function Navbar() {
               <NavLink
                 to='/about'
                 activeStyle={{ color:'#ca2128' }}
-                style={{...typography.p314PxM}}
-                className="nav-link" 
+                style={{...typography.p314PxM, padding:'0.7vw'}}
+                className="nav-link fontsize14px" 
                 onClick={closeMobileMenu}
               >
                 About us
@@ -55,8 +55,8 @@ function Navbar() {
               <NavLink
                 to='/blogs'
                 activeStyle={{ color:'#ca2128' }}
-                style={{...typography.p314PxM}}
-                className="nav-link" 
+                style={{...typography.p314PxM, padding:'0.7vw'}}
+                className="nav-link fontsize14px" 
                 onClick={closeMobileMenu}
               >
                Blogs
@@ -67,8 +67,8 @@ function Navbar() {
               <NavLink
                 to='/contactus'
                 activeStyle={{ color:'#ca2128' }}
-                style={{...typography.p314PxM}}
-                className="nav-link"
+                style={{...typography.p314PxM, padding:'0.7vw'}}
+                className="nav-link fontsize14px"
                 onClick={closeMobileMenu}
               >
                 Contact us

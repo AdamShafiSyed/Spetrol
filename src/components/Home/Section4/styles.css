@@ -37,3 +37,9 @@
     height: unset !important;
   }
 }
+
+@media (min-width: 1366px) {
+  .padding32 {
+    padding-top: 2.35vw !important;
+  }
+}

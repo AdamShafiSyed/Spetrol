@@ -35,16 +35,16 @@ const closeVideo = () => {
           </Dialog>}
      {!props.video &&   <Dialog open={props.openDialog} onClose={handleClose}>
       <DialogTitle>
-           <div style={{display:"flex",justifyContent:"space-between"}} onClick={handleClose}>
-               <p>Download mobile app</p>
-               <img className="" src={Cross} alt="" width={15} height={15} />
+           <div style={{display:"flex",justifyContent:"space-between", alignItems:'baseline'}} onClick={handleClose}>
+               <p style={{fontSize: 26, fontWeight: 700}}>Download mobile app</p>
+               <img className="" style={{cursor: 'pointer'}} src={Cross} alt="" width={15} height={15} />
                </div> 
                <div className="border"></div>
             </DialogTitle>
         <DialogContent>
           <DialogContentText>
               <div style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>
-         <p style={{textAlign:"center",width:"80%"}}>Scan the QR code below with your mobile phone and it will redirect you to the specific download link</p> 
+         <p style={{textAlign:"center",width:"80%", color: '#000'}}>Scan the QR code below with your mobile phone and it will redirect you to the specific download link</p> 
           <div className="">
             <img className="" src={banner} alt="Banner" width={300} height={300}/>
         </div>
@@ -52,10 +52,10 @@ const closeVideo = () => {
         <div style={{padding:16}}>
         <div className="border"></div>
         </div>
-        <p style={{textAlign:"center  "}}>Or, download directly now</p>
+        <p style={{textAlign:"center", color:'#000'}}>Or, download directly now</p>
         <div className="playstore-btns-dialog" style={{display:"flex",flexDirection:"row",justifyContent:"center",alignItems:"center"}}>
-                 <Google style={{marginRight:8}} />
-                 <Apple  />
+                 <Google style={{marginRight:8, cursor:'pointer'}} />
+                 <Apple style={{cursor: 'pointer'}}  />
               </div>
 
           </DialogContentText>

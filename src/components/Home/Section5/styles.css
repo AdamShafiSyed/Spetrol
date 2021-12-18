@@ -18,6 +18,13 @@
   display: flex;
   margin-bottom: 0;
 }
+
+/* .applestr-btn:hover{
+  border: 1px solid #000;
+}
+.playstr-btn {
+  border: 1px solid #000;
+} */
 .banner-content {
   width: 50%;
   display: flex;
@@ -25,16 +32,16 @@
   justify-content: center;
 }
 .download-btn {
-  border-radius: 6px;
+  border-radius: 0.45vw;
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1.18vw;
+  line-height: 1.76vw;
   text-align: center;
   color: #ca2128;
   background: #fff;
-  padding: 14px 0px;
+  padding: 1.03vw 0px;
   width: 100%;
   display: none;
 }
@@ -45,6 +52,9 @@
   display: flex;
   /* justify-content: space-evenly; */
   float: left;
+}
+.marginRight8{
+  margin-right: 8px;
 }
 
 @media only screen and (max-width: 877px) {
@@ -96,10 +106,10 @@
   } */
   .background {
     height: unset !important;
-    padding: 24px 0;
+    padding: 1.76vw 0;
   }
   .banner-title {
-    font-size: 28px !important;
+    font-size: 2.05vw !important;
   }
   .playstore-btns {
     display: none !important;
@@ -112,5 +122,15 @@
   }
   .banner-content {
     width: 100%;
+  }
+}
+
+@media (min-width: 1366px) {
+  .playstore-btns>SVG{
+    width: 11.86vw !important;
+    height: 3.52vw !important;
+  }
+  .marginRight8{
+    margin-right: 0.59vw !important;
   }
 }

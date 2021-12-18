@@ -7,7 +7,7 @@ const Section6 = () => {
     return (
         <>
         <div className="qtns-container" style={{justifyContent:"center",alignItems:"center",flexDirection:"column",display:"flex"}}>
-            <div className="section6-margin" style={{...typography.h136Px,...{paddingBottom:'3%'}}}>
+            <div className="section6-margin fontsize36px" style={{...typography.h136Px,...{paddingBottom:'3%'}}}>
             Frequently asked questions
             </div>
             <ExpandView data={[

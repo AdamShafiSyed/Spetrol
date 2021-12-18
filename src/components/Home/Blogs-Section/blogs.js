@@ -142,8 +142,8 @@ const BlogSection = () => {
      <div className='blogs_container'>
         <div className='blogs_section_header'>
             <div className='title-section'>
-                <p style={{...typography.h136Px, lineHeight: '40px', margin: 0}}>Our Blogs</p>
-                <p className='title-caption'>We always want to share our thoughts with our customers.</p>
+                <p className='fontsize36px lineheight40px' style={{...typography.h136Px, lineHeight: '40px', margin: 0}}>Our Blogs</p>
+                <p className='title-caption fontsize18px lineheight26px'>We always want to share our thoughts with our customers.</p>
             </div>
             {/* <Link className="btn btn-outline-custom" to='/blogs'>Read more blogs</Link> */}
         </div>
@@ -156,15 +156,15 @@ const BlogSection = () => {
         return (
             <div key={index} className="card blogs_section_card shadow bg-white rounded" >
                  <img className="card-img-top" src={blog.image} alt="Card cap" />
-                 <div className="card-body">
-                        <p className="card-subtitle mb-2" style={{color: '#CA2128', fontWeight: 700}}>{blog.type}</p>
-                        <h5 className="card-title">{blog.title}</h5>
-                        <p className="card-text">{blog.content}</p>
+                 <div className="card-body padding20">
+                        <p className="card-subtitle fontsize16px marginBottom8" style={{color: '#CA2128', fontWeight: 700, fontSize:'16px'}}>{blog.type}</p>
+                        <h5 className="card-title fontsize20px marginBottom12" style={{fontSize:'20px'}}>{blog.title}</h5>
+                        <p className="card-text fontsize18px marginBottom16" style={{fontSize:'18px'}} >{blog.content}</p>
                         <section className='author-section'>
                             <img src={blog.author.image} alt="" />
                             <div>
-                                <p className='author-title'>{blog.author.name}</p>
-                                <p>
+                                <p className='author-title fontsize14px'>{blog.author.name}</p>
+                                <p className='fontsize14px'>
                                     {blog.author.published_date} . {blog.author.read_time}
                                 </p>
                             </div>

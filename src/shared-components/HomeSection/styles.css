@@ -45,6 +45,9 @@
   transition: 1s ease ;
   cursor: pointer;
 }
+.marginRight16px {
+  margin-right: 16px;
+}
 .image:hover{
   transform: rotate(30deg);
   /* transform: scale(1.5); */
@@ -107,7 +110,7 @@
     flex-direction: column;
 }
 .section-caption {
-    margin-top: 12px;
+    margin-top: 14px;
     line-height: 26px;
     color: rgb(119, 119, 119);
     width: 100%;
@@ -204,6 +207,19 @@
   .home-image-right {
     margin-left: unset;
     margin-right: unset;
+  }
+}
+
+@media (min-width: 1366px) {
+  .section-caption{
+    margin-top: 1vw !important;
+  }
+  .image {
+    width: 3.7vw !important;
+    height: 3.7vw !important;
+  }
+  .marginRight16px{
+    margin-right: 1.18vw !important;
   }
 }
 

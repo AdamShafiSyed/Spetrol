@@ -53,7 +53,7 @@ const Section8 = () => {
         <div className="section8-top-margin"> 
         
                 <div style={{display:"flex",justifyContent:"center",alignContent:"center",alignItems:"center",flexDirection:"column"}}>
-                    <p className="main-heading" style={{color: '#fff'}}> How it works</p>
+                    <p className="main-heading fontsize36px lineheight40px" style={{color: '#fff'}}> How it works</p>
                     {/* <p style={{...typography.p118Px,...{color:"#777777",marginTop:21}}}> Learn how you can order fuel in just a few minutes</p> */}
                 </div>
 
@@ -62,9 +62,9 @@ const Section8 = () => {
                <div className="section8-card-style"> 
                     {data.map((asset,index) => {
                         return <div key={index} className={ selectedAsset === index ? 'highlightedBox' :`borderBox`}>
-                            <div style={{padding:24, cursor: 'pointer'}} onClick={() => highlightcard(index)}>
-                            <p style={{...typography.h420Px,...{color:selectedAsset === index ? '#9D2831': "#111", letterSpacing: "-0.01em", lineHeight: "26px", margin:0}}}>{asset.title}</p>
-                            <p style={{...typography.p314Px,...{color:selectedAsset === index ? '#9D2831': "#777777",marginTop:12,marginBottom:0, lineHeight: '20px'}}}>{asset.subtitle}</p>
+                            <div className='padding24' style={{cursor: 'pointer'}} onClick={() => highlightcard(index)}>
+                            <p className='fontsize20px lineheight26px' style={{...typography.h420Px,...{color:selectedAsset === index ? '#9D2831': "#111", letterSpacing: "-0.01em", lineHeight: "26px", margin:0}}}>{asset.title}</p>
+                            <p className='fontsize14px lineheight20px marginTop14' style={{...typography.p314Px,...{color:selectedAsset === index ? '#9D2831': "#777777",marginBottom:0, lineHeight: '20px'}}}>{asset.subtitle}</p>
                             </div>
                         </div>
                     })}
