@@ -67,11 +67,11 @@ const Contact = () => {
                 </div>
                 <div className="contact-details">
                     <p className="phone">
-                        <img src={phone_icon} style={{paddingRight: 10}} alt="phone_icon" />
+                        <img className='phone_icon' src={phone_icon} style={{paddingRight: 10}} alt="phone_icon" />
                         Phone: +91 1234567890
                     </p>
                     <p className="email">
-                        <img src={email_icon} style={{paddingRight: 10}} alt="phone_icon" />
+                        <img className='email_icon' src={email_icon} style={{paddingRight: 10}} alt="phone_icon" />
                         Email: info@spetrol.com
                         </p>
                 </div>
@@ -101,7 +101,7 @@ const Contact = () => {
                 <div className="row">
                     <div className="form-group col-lg-12">
                         <label className="form-label">Subject</label>
-                       <div style={{borderRadius:20}}><Dropdown options={['other','payment','service']} onChange={(value) => OnSelect(value)} value={'Service Avaliability'} placeholder="Select an option"  /></div> 
+                       <div style={{borderRadius:20}}><Dropdown options={['payment','service','other']} onChange={(value) => OnSelect(value)} value={'Service Avaliability'} placeholder="Select an option"  /></div> 
 
                         {/* <input type="text" className="form-control" ref={subject} /> */}
                     </div>

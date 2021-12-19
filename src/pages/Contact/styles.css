@@ -83,3 +83,41 @@
     width: 100% !important;
   }
 }
+@media (min-width:1367px) {
+  .contact-title, .msg-title{
+    font-size: 1.32vw !important;
+    margin-bottom: 1.18vw !important;
+  }
+  .contact-desc, .form-label{
+    font-size: 1.03vw !important;
+    margin-bottom: 1.18vw !important;
+  }
+  .phone, .email{
+    font-size: 1.18vw !important;
+    margin-bottom: 1.18vw !important;
+  }
+  .phone_icon, .email_icon{
+    width: 2.19vw !important;
+    height: 1.5vw !important;
+    padding-right: 0.74vw !important;
+  }
+  .paddingRight10{
+    padding-right: 0.74vw !important;
+  }
+  .form-group {
+    margin-bottom: 1.18vw !important;
+}
+.form-control{
+  font-size: 1.18vw !important;
+}
+.Dropdown-placeholder{
+  font-size: 1.18vw !important;
+}
+.btn-danger{
+  font-size: 1.18vw !important;
+  padding: 0.74vw 1.76vw !important;
+}
+.placeholder{
+  font-size: 0.89vw !important;
+}
+}

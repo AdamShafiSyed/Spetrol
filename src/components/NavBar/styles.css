@@ -4,6 +4,7 @@
   position: sticky;
   top: 0;
   z-index: 999;
+  height: 65px;
 }
 
 .nav-container {
@@ -174,9 +175,12 @@
   }
 }
 
-@media (min-width: 1366px) {
+@media (min-width: 1367px) {
   .navbar-brand>SVG{
     width:9.5vw;
     height:2.2vw;
+  }
+  .navbar{
+    height: 4.7vw;
   }
 }

@@ -124,8 +124,8 @@ const BlogsPage = () => {
      <div>
         <div className='blog_page_header'>
             <div className='title-section'>
-                <p style={{...typography.h148Px, lineHeight: '60px', color:'#771A23',letterSpacing: '2%', margin: 0}}>Spetrol Publications</p>
-                <p className='title-caption' style={{color: '#CA2128'}}>The latest industry news, interviews, technologies, and resources.</p>
+                <p className='fontsize48px lineheight60px' style={{...typography.h148Px, lineHeight: '60px', color:'#771A23',letterSpacing: '2%', margin: 0}}>Spetrol Publications</p>
+                <p className='title-caption fontsize18px lineheight26px' style={{color: '#CA2128'}}>The latest industry news, interviews, technologies, and resources.</p>
             </div>
         </div>
      <div className='blog_page_container'>
@@ -134,8 +134,8 @@ const BlogsPage = () => {
                 allBlogs.map((blog,index) => {
                     return <div key={index} className="card blogs_page_card shadow bg-white rounded" >
                     <img className="card-img-top" src={blog.image} alt="Card cap" />
-                    <div className="card-body">
-                        <p className="card-subtitle mb-2" style={{color: '#CA2128', fontWeight: 700}}>{blog.type}</p>
+                    <div className="card-body padding20">
+                        <p className="card-subtitle fontsize16px mb-2" style={{color: '#CA2128', fontWeight: 700}}>{blog.type}</p>
                         <h5 className="card-title">{blog.title}</h5>
                         <p className="card-text">{blog.content}</p>
                         <section className='author-section'>

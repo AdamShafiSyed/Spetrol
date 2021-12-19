@@ -3,10 +3,11 @@
     margin: auto;
     padding-top: 15px;
     z-index: 1;
-    margin-top: -12%;
+    /* margin-top: -12%; */
 }
 .blog_page_header{
-    height: 65vh;
+    /* height: 65vh; */
+    padding: 4%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,5 +36,24 @@
     .blog_page_header{
         height: unset;
         padding: 10% 0;
+    }
+}
+@media (min-width: 1367px) {
+    .blog_page_container{
+        padding-top: 1.09vw !important;
+    }
+    .padding20{
+        padding: 1.5vw !important;
+    }
+    .card-subtitle{
+        margin-bottom: 0.59vw !important;
+    }
+    .card-title{
+        font-size: 1.5vw !important;
+        margin-bottom: 0.89vw !important;
+    }
+    .card-text{
+        font-size: 1.18vw !important;
+        margin-bottom: 1.18vw !important;
     }
 }

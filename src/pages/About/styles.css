@@ -1,7 +1,7 @@
 .container-header {
-  width: 70%;
+  width: 85%;
   margin: auto;
-  margin-top: 80px;
+  padding-top: 15px;
   margin-bottom: 80px;
 }
 
@@ -54,7 +54,7 @@
 }
 
 .team-container {
-  width: 80%;
+  width: 85%;
   margin: auto;
 }
 
@@ -130,12 +130,6 @@
     width: 85%;
   }
 }
-@media only screen and (max-width: 1024px) {
-  .header-title {
-    width: 80% !important;
-  }
-}
-
 @media only screen and (max-width: 768px) {
   .header-title,
   .header-desc {
@@ -171,5 +165,72 @@
   .media-icons {
     display: flex;
     justify-content: center;
+  }
+  .header-title {
+    width: 80% !important;
+  }
+}
+
+@media (min-width:1367px) {
+  .container-header{
+    padding-top: 1.1vw !important;
+    margin-bottom: 5.85vw !important;
+  }
+  .marginBottom80 {
+    margin-bottom: 5.85vw !important;
+  }
+  .header-title, .header-title>span{
+    font-size: 3.52vw !important;
+  }
+  .header-desc{
+    font-size: 1.18vw !important;
+    margin-top: 1.5vw !important;
+  }
+  .header-imageOne{
+    height: 37.49vw!important;
+  }
+  .images-sub-container {
+    margin-left: 0.805vw !important;
+  }
+  .header-imageTwo, .header-imageThree{
+    height: 18.30vw !important;
+  }
+  .page-content{
+    margin-top: 5.85vw !important;
+  }
+  .page-content-desc{
+    padding: 3.67vw 14.64vw !important;
+    font-size: 1.76vw !important;
+    line-height: 2.64vw !important;
+  }
+  .marginTop96{
+    margin-top: 7.02vw !important;
+  }
+  .team-container-desc{
+    margin-top: 1.18vw !important;
+  }
+  .team-images-container{
+    margin-top: 3.52vw !important;
+  }
+  .person-card{
+    width: 18.3vw !important;
+    margin: 1.5vw !important;
+  }
+  .person-img{
+    width: 10.99vw !important;
+    height: 10.99vw !important;
+  }
+  .marginTop15{
+    margin-top: 1.09vw !important;
+  }
+  .marginTop10{
+    margin-top: 0.732vw !important;
+  }
+  .media-icons>a>SVG{
+    width: 1.76vw !important;
+    height: 1.76vw !important;
+  }
+  .marginRight10{
+    margin-right: 0.732vw !important;
   }
 }

@@ -85,13 +85,19 @@ html{
   color: #fff;
   font-size: 100px;
 }
+.MuiDialogTitle-root{
+  padding-bottom: 0 !important;
+}
+.MuiDialogContent-root{
+  padding-top: 0 !important;
+}
 @media (min-width: 877px){
   .MuiDialog-paperScrollPaper{
     max-height: unset !important;
   }
 }
 
-@media (min-width: 1366px) {
+@media (min-width: 1367px) {
 .fontsize14px{
   font-size: 1.03vw !important;
 }
@@ -113,6 +119,9 @@ html{
 .fontsize36px{
   font-size: 2.64vw !important;
 }
+.fontsize48px {
+  font-size: 3.52vw !important;
+}
 .fontsize62px{
   font-size: 4.54vw !important;
 }
@@ -130,6 +139,9 @@ html{
 }
 .lineheight20px{
 line-height: 1.5vw !important;
+}
+.lineheight60px{
+  line-height: 4.40vw !important;
 }
 .react-multiple-carousel__arrow{
   min-width: 3.15vw !important;

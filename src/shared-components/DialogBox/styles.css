@@ -10,6 +10,9 @@
   order: 1;
   align-self: stretch;
   flex-grow: 0;
-  margin: 16px 0px;
 }
+.playstore-btns-dialog>svg{
+  stroke: #000;
+}
+
 

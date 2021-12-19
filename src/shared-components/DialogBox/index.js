@@ -34,13 +34,13 @@ const closeVideo = () => {
 </DialogContent>
           </Dialog>}
      {!props.video &&   <Dialog open={props.openDialog} onClose={handleClose}>
-      <DialogTitle>
+        <DialogTitle>
            <div style={{display:"flex",justifyContent:"space-between", alignItems:'baseline'}} onClick={handleClose}>
-               <p style={{fontSize: 26, fontWeight: 700}}>Download mobile app</p>
+               <p style={{fontSize: 26, fontWeight: 700, marginBottom: 0}}>Download mobile app</p>
                <img className="" style={{cursor: 'pointer'}} src={Cross} alt="" width={15} height={15} />
                </div> 
-               <div className="border"></div>
-            </DialogTitle>
+        </DialogTitle>
+        <div className="border" style={{  margin: "10px 24px"}}></div>
         <DialogContent>
           <DialogContentText>
               <div style={{display:"flex",flexDirection:"column",justifyContent:"center",alignItems:"center"}}>

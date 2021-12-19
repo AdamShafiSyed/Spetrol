@@ -111,7 +111,7 @@ border-bottom-right-radius: 4%;
   }
 }
 
-@media (min-width: 1366px) {
+@media (min-width: 1367px) {
   .padding20{
     padding: 1.5vw !important;
   }
