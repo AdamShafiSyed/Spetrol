@@ -150,5 +150,8 @@ line-height: 1.5vw !important;
 .react-multiple-carousel__arrow::before{
   font-size: 1.5vw !important;
 }
+.Dropdown-option{
+  font-size: 1.18vw !important;
+}
 }
 

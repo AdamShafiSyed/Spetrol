@@ -36,8 +36,8 @@
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.18vw;
-  line-height: 1.76vw;
+  font-size: 16px;
+  line-height: 24px;
   text-align: center;
   color: #ca2128;
   background: #fff;
@@ -108,9 +108,6 @@
     height: unset !important;
     padding: 1.76vw 0;
   }
-  .banner-title {
-    font-size: 2.05vw !important;
-  }
   .playstore-btns {
     display: none !important;
   }
@@ -132,5 +129,12 @@
   }
   .marginRight8{
     margin-right: 0.59vw !important;
+  }
+  .banner-title {
+    font-size: 2.05vw !important;
+  }
+  .download-btn{
+    font-size: 1.18vw !important;
+    line-height: 1.76vw !important;
   }
 }
