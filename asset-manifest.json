@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Spetrol/static/css/main.fb46c280.chunk.css",
-    "main.js": "/Spetrol/static/js/main.cdc6757b.chunk.js",
-    "main.js.map": "/Spetrol/static/js/main.cdc6757b.chunk.js.map",
+    "main.js": "/Spetrol/static/js/main.1db90fab.chunk.js",
+    "main.js.map": "/Spetrol/static/js/main.1db90fab.chunk.js.map",
     "runtime-main.js": "/Spetrol/static/js/runtime-main.6c5523be.js",
     "runtime-main.js.map": "/Spetrol/static/js/runtime-main.6c5523be.js.map",
     "static/css/2.cb21006d.chunk.css": "/Spetrol/static/css/2.cb21006d.chunk.css",
@@ -60,6 +60,6 @@
     "static/css/2.cb21006d.chunk.css",
     "static/js/2.e069b4c1.chunk.js",
     "static/css/main.fb46c280.chunk.css",
-    "static/js/main.cdc6757b.chunk.js"
+    "static/js/main.1db90fab.chunk.js"
   ]
 }
