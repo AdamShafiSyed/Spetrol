@@ -76,7 +76,7 @@ const About = () => {
         },
         {
             name: 'Sristi Shetty',
-            role: 'Copywriting',
+            role: 'Social media Manager',
             imgURL: Shrishti,
             twitterURL: 'https://twitter.com/?lang=en',
             InstaURL: 'https://www.instagram.com/?hl=en'
