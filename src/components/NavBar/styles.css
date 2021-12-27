@@ -54,10 +54,6 @@
   /* margin-right: 2rem; */
 }
 
-.nav-item {
-  /* height: 80px; */
-}
-
 .nav-links {
   color: #777777;
   display: flex;
@@ -172,6 +168,9 @@
   }
   .navbar-brand {
     margin-left: unset !important;
+  }
+  .navbar{
+    height: unset;
   }
 }
 

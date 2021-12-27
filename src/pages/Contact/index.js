@@ -118,6 +118,7 @@ const Contact = () => {
                 </div>
             </form>
             </div>
+            {/* <FAQSection /> */}
         </div>
     )
 }

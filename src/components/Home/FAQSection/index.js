@@ -1,9 +1,9 @@
 import React from 'react'
-import typography from './../../../styles/typography';
-import ExpandView from './../../../shared-components/ExpandView'
+import typography from '../../../styles/typography';
+import ExpandView from '../../../shared-components/ExpandView'
 import './styles.css'
 
-const Section6 = () => {
+const FAQSection = () => {
     return (
         <>
         <div className="qtns-container" style={{justifyContent:"center",alignItems:"center",flexDirection:"column",display:"flex"}}>
@@ -38,4 +38,4 @@ const Section6 = () => {
     )
 }
 
-export default Section6
+export default FAQSection;

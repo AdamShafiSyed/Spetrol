@@ -44,10 +44,10 @@ margin-top: 4%;
     border-radius: 50%;
 }
 .author-section>div{
-    padding-left: 0.89vw;
+    padding-left: 12px;
     font-weight: 500;
-    font-size: 1.03vw;
-    line-height: 1.5vw;
+    font-size: 14px;
+    line-height: 20px;
 }
 .author-section>div>p{
     margin: 0;
@@ -94,9 +94,6 @@ margin-top: 4%;
         width: 100%;
         margin-bottom: 10%;
     }
-    .author-title{
-        padding-bottom: 16px;
-    }
 }
 @media (min-width: 1367px) {
     .blogs_section_header{
@@ -125,5 +122,11 @@ margin-top: 4%;
     }
     .author-title {
         font-size: 1.03vw !important;
+    }
+    .author-section>div{
+        padding-left: 0.89vw;
+        font-weight: 500;
+        font-size: 1.03vw;
+        line-height: 1.5vw;
     }
 }
