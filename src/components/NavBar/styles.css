@@ -169,6 +169,9 @@
   .navbar-brand {
     margin-left: unset !important;
   }
+  .navbar{
+    height: unset;
+  }
 }
 
 @media (min-width: 1367px) {
