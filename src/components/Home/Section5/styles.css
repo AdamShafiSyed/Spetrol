@@ -1,6 +1,6 @@
 .background {
   display: flex;
-  height: 65vh;
+  /* height: 65vh; */
   margin-top: 5%;
 }
 .iphone-image {
@@ -14,6 +14,7 @@
 }
 .footer-banner-container {
   width: 85%;
+  padding-top: 1%;
   margin: 0 auto;
   display: flex;
   margin-bottom: 0;
@@ -65,7 +66,7 @@
   .banner-content{
     width: 100%;
     margin-top: 10%;
-    margin-bottom: 10%;
+    /* margin-bottom: 10%; */
   }
   .iphone-cover-image {
     margin: 10% auto !important;

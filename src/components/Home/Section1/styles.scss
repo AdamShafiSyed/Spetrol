@@ -291,7 +291,7 @@
   // line-height: 62px;
   flex-direction: column;
   align-items: center;
-  height: 75%;
+  // height: 75%;
   margin: 0 auto;
   margin-top: 3% !important;
   padding: 32px;
@@ -381,7 +381,7 @@ video#videobg {
   text-align: center;
   cursor: pointer;
   width: 158px;
-  height: 10vh;
+  // height: 10vh;
   width: 100%;
   font-size: 26px;
   font-weight: 700;
@@ -546,5 +546,6 @@ $color: #276ef1;
   .notified_btn{
     font-size: 2vw !important;
     padding: 1vw 2vw !important;
+    height: 4.7vw !important;
   }
 }
