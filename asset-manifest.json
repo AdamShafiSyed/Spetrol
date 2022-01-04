@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Spetrol/static/css/main.fb46c280.chunk.css",
+    "main.css": "/Spetrol/static/css/main.cf8061bb.chunk.css",
     "main.js": "/Spetrol/static/js/main.1be3d73c.chunk.js",
     "main.js.map": "/Spetrol/static/js/main.1be3d73c.chunk.js.map",
     "runtime-main.js": "/Spetrol/static/js/runtime-main.6c5523be.js",
@@ -10,7 +10,7 @@
     "static/js/2.e069b4c1.chunk.js.map": "/Spetrol/static/js/2.e069b4c1.chunk.js.map",
     "index.html": "/Spetrol/index.html",
     "static/css/2.cb21006d.chunk.css.map": "/Spetrol/static/css/2.cb21006d.chunk.css.map",
-    "static/css/main.fb46c280.chunk.css.map": "/Spetrol/static/css/main.fb46c280.chunk.css.map",
+    "static/css/main.cf8061bb.chunk.css.map": "/Spetrol/static/css/main.cf8061bb.chunk.css.map",
     "static/js/2.e069b4c1.chunk.js.LICENSE.txt": "/Spetrol/static/js/2.e069b4c1.chunk.js.LICENSE.txt",
     "static/media/styles.scss": "/Spetrol/static/media/Banner_image.fc2a1a29.png",
     "static/media/Blog_Image1.415e71fc.png": "/Spetrol/static/media/Blog_Image1.415e71fc.png",
@@ -59,7 +59,7 @@
     "static/js/runtime-main.6c5523be.js",
     "static/css/2.cb21006d.chunk.css",
     "static/js/2.e069b4c1.chunk.js",
-    "static/css/main.fb46c280.chunk.css",
+    "static/css/main.cf8061bb.chunk.css",
     "static/js/main.1be3d73c.chunk.js"
   ]
 }
